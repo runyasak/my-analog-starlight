@@ -10,10 +10,25 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@analogjs/astro-angular": "^0.2.29",
+    "@angular-devkit/build-angular": "^17.0.10",
+    "@angular/animations": "^17.0.9",
+    "@angular/common": "^17.0.9",
+    "@angular/compiler": "^17.0.9",
+    "@angular/compiler-cli": "^17.0.9",
+    "@angular/core": "^17.0.9",
+    "@angular/forms": "^17.0.9",
+    "@angular/language-service": "^17.0.9",
+    "@angular/platform-browser": "^17.0.9",
+    "@angular/platform-browser-dynamic": "^17.0.9",
+    "@angular/platform-server": "^17.0.9",
     "@astrojs/check": "^0.4.1",
     "@astrojs/starlight": "^0.15.3",
     "astro": "^4.0.1",
+    "rxjs": "^7.8.1",
     "sharp": "^0.32.5",
-    "typescript": "^5.3.3"
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2",
+    "zone.js": "^0.14.3"
   }
 }

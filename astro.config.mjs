@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import angular from '@analogjs/astro-angular';
 
 // https://astro.build/config
 export default defineConfig({
@@ -23,5 +24,6 @@ export default defineConfig({
 				},
 			],
 		}),
+		angular()
 	],
 });
